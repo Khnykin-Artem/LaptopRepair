@@ -1,0 +1,86 @@
+.title {
+    text-align: center;
+
+    font-size: 50px;
+
+    padding: 30px;
+}
+
+.title span {
+    color: #008000;
+}
+
+
+
+.main {
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.main img {
+    max-width: 600px;
+    max-height: none;
+}
+
+.main .main-info {
+    max-width: 600px;
+    max-height: none;
+}
+
+.main-info ul {
+    padding: 0px 0px 0px 17px;
+}
+
+.main-info a {
+    font-size: 20px;
+
+    color: #006dd4;
+}
+
+
+
+.form {
+    display: flex;
+
+    flex-direction: column;
+
+    margin: 50px auto;
+
+    max-width: 420px;
+    max-height: none;
+}
+
+.form h2 {
+    text-align: center;
+
+    font-size: 35px;
+}
+
+.form input {
+    border: 2px solid #d7d7d7;
+    border-radius: 5px;
+
+    padding: 10px;
+
+    margin-bottom: 20px;
+
+    font-size: 23px;
+}
+
+.form button {
+    border: 0;
+    border-radius: 5px;
+
+    background: #008000;
+
+    color: #ffffff;
+
+    padding: 16px;
+
+    font-size: 20px;
+}
